@@ -1,0 +1,24 @@
+.odd
+{
+    background-color: pink;
+    font-family: Verdana,sans-serif;
+    
+}
+
+#harmas
+{
+    font-size: 24px;
+}
+
+#kettes
+{
+    color: blue;
+    font-size: 36px;
+}
+
+#negyes
+{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
