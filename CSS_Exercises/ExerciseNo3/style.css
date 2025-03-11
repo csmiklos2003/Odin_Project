@@ -1,0 +1,17 @@
+.gombok
+{
+    font-size: "28px";
+    font-family: "Helvetica, Times New Roman, sans-serif"
+
+}
+
+.gombok.elso
+{
+    background-color: black;
+    color: white;
+}
+
+.gombok.masodik
+{
+    background-color: yellow;
+}
