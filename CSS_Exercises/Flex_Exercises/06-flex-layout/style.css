@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  margin-top: 15px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+}
+
+/* Saját Agymenés */
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .left-links , .header .right-links
+{
+    display: flex;
+    gap: 20px;
+    
+}
+
+li
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: grey;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer
+{
+    background-color: lightgray;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    flex: 1;  
+    bottom: 0;
+}
+
+.footer .left-links , .footer .right-links
+{
+    display: flex;
+    
+    
+}
+
+.footer .left-links
+{
+    display: flex;
+    gap: 20px;
+}
+
+.footer .right-links
+{
+    display: flex;
+    gap: 20px;
+
+}
+
+
